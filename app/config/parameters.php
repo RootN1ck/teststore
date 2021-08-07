@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'teststore',
+    'database_user' => 'phpmyadmin',
+    'database_password' => 'admin',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'K5y7XHrtK9kXizFfgrnUr0nHcqFjQM8DODrYV8nYJev3i64nVp4J0EJHjqadh6KF',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-08-06',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+    'cookie_key' => '0Uq7QSDUPNZnE7FXjWaKgr4RwVDoKLIN3Jh2cVjEifOrqvrrvILDIqgLr7fpm4Sc',
+    'cookie_iv' => 'vkt3EBqmFK39t4kUYrPAEzCsnKJmWDg4',
+    'new_cookie_key' => 'def00000de0c7ebcc988c9f2d9ab54119d7afcf01d51f3f9d89a7b035bb5c17e1d5e84114ae43b081f6e3c281baf677b52abb62fd1b7d32a327018fc1fdc162ab2308209',
+  ),
+);

@@ -1,0 +1,39 @@
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: Updating database schema...
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 16:05:29 ERROR     [console] Error thrown while running command "prestashop:schema:update-without-foreign --env=prod". Message: "An exception occurred while executing 'SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'prestashop' AND TABLE_NAME = 'ps_access' ORDER BY ORDINAL_POSITION ASC':
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: SQLSTATE[HY000]: General error: 1 Can't create/write to file '/tmp/#sql_3ce_0.MAI' (Errcode: 13 "Permission denied")" ["exception" => Doctrine\DBAL\Exception\DriverException { …},"command" => "prestashop:schema:update-without-foreign --env=prod","message" => """  An exception occurred while executing 'SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'prestashop' AND TABLE_NAME = 'ps_access' ORDER BY ORDINAL_POSITION ASC':\n  \n  SQLSTATE[HY000]: General error: 1 Can't create/write to file '/tmp/#sql_3ce_0.MAI' (Errcode: 13 "Permission denied")  """]
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: In AbstractMySQLDriver.php line 106:
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   An exception occurred while executing 'SELECT COLUMN_NAME AS Field, COLUMN_  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:    `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME A  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   S CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:    WHERE TABLE_SCHEMA = 'prestashop' AND TABLE_NAME = 'ps_access' ORDER BY OR  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   DINAL_POSITION ASC':                                                         
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   SQLSTATE[HY000]: General error: 1 Can't create/write to file '/tmp/#sql_3ce  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   _0.MAI' (Errcode: 13 "Permission denied")                                    
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: In PDOConnection.php line 90:
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   SQLSTATE[HY000]: General error: 1 Can't create/write to file '/tmp/#sql_3ce  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   _0.MAI' (Errcode: 13 "Permission denied")                                    
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: In PDOConnection.php line 88:
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   SQLSTATE[HY000]: General error: 1 Can't create/write to file '/tmp/#sql_3ce  
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:   _0.MAI' (Errcode: 13 "Permission denied")                                    
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29:                                                                                
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: prestashop:schema:update-without-foreign [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [-e|--env ENV] [--no-debug] [--id_shop [ID_SHOP]] [--id_shop_group [ID_SHOP_GROUP]] [--] <command>
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:05:29: 
+*ERROR* 	v1.7.7.5	2021/08/06 - 16:10:09: Array
+(
+    [0] => Невозможно установить модуль "psgdpr"
+    [1] => Длина свойства Tab->name составляет 70 симв. Должно быть между 0 и 64 симв.
+)
+
